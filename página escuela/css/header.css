@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("../img/triangulos.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+div#general{
+    margin: auto;
+    margin-top: 74px;
+    width: 960px;
+    height: 800px;
+    background-color: none;
+}
+footer{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 38, 95, 0.5); 
+    margin-top: 400px;
+    margin-bottom: 20px;
+    height: 300px;
+}
+.mapa{
+    float: left;
+}
+.redes{
+    margin-left: 50px;
+    float: left;
+}
+.contacto{
+    margin-left: 50px;
+    float: left;
+}
+div#escudos{
+    background: url(../img/escudos2.png);
+    width: 960px;
+    height: 100px;
+
+}
+div#titulo{
+    color: rgb(255, 255, 255);
+    width: 960px;
+    height: 120px;
+    background-color: rgba(0, 38, 95, 0.5); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+div#encabezado{
+    background: url(../img/plan2.png);
+    margin-top: 20px;
+    width: 640px;
+    height: 460px;
+
+}
+
+div#menuderecha{
+    margin-top: 240px;
+    float: right;
+    width: 300px;
+    height: 460px;
+    background-color: rgba(1, 12, 27, 0.5);
+
+}
+div#cuerpo{
+    margin-top: 20px;
+    width: 960px;
+    height: 400px;
+    background-color: rgba(1, 12, 27,0.5);
+}
+
+.enca{
+    background: rgba(15, 85, 189, 0.795);
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    position: fixed;
+
+}
+.wrapper{
+    width: 90%;
+    max-width: 1180px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 70px;
+    float: left;
+}
+#verfoto{
+    background-color: rgba(1, 12, 27,0.5);
+    color: #fff;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-right: 220px;
+    float: right;
+    
+}
+#verfoto1{
+    background-color: rgba(1, 12, 27,0.5);
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 220px;
+    float: right;
+    
+}
+#verfoto2{
+    background-color: rgba(1, 12, 27,0.5);
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 220px;
+    float: right;
+    
+}
+#verfoto:hover{
+    background-color: rgba(0, 4, 233, 0.5);
+    color: rgb(255, 255, 255);
+}
+#verfoto1:hover{
+    background-color: rgba(0, 4, 233, 0.5);
+    color: rgb(255, 255, 255);
+}
+#verfoto2:hover{
+    background-color: rgba(0, 4, 233, 0.5);
+    color: rgb(255, 255, 255);
+}
+nav{
+    line-height: 70px;
+    float: right;
+}
+nav a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px 10px;
+    line-height: normal;
+    font-size: 14px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+nav a:hover{
+    color: #33cccc;
+    border-bottom: 5px solid #33cccc;
+}
+@media only screen and (min-width:400px) and (max-width: 767px){
+    .enca{
+        height: 70px;
+    }
+    .logo{
+        font-size: 20px;
+        margin-left: 130px;
+        margin-top: -15px;
+
+    }
+    nav{
+        margin-top: -40px;
+        transform: translateX(-3%);
+    }
+}
+
